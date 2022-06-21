@@ -1,1 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T03:42:00.654Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" version="20.0.1" etag="X6SJNwFcCqdbvWxjMlU7" type="github"><diagram id="-JYtZKeqAboQvgq1GIHr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-21T03:55:15.085Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="5e6-gVYy5BKURZ0Nu9IZ" version="20.0.1" type="github">
+  <diagram id="-JYtZKeqAboQvgq1GIHr" name="第 1 页">
+    <mxGraphModel dx="946" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SP42X-zHBVF7Z0HGUCIS-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="70" width="20" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="SP42X-zHBVF7Z0HGUCIS-10" value="用户转账" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="SP42X-zHBVF7Z0HGUCIS-1">
+          <mxGeometry x="5" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SP42X-zHBVF7Z0HGUCIS-7" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="70" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SP42X-zHBVF7Z0HGUCIS-16" value="账户处理" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="SP42X-zHBVF7Z0HGUCIS-7">
+          <mxGeometry x="15" y="170" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SP42X-zHBVF7Z0HGUCIS-8" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="70" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SP42X-zHBVF7Z0HGUCIS-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="SP42X-zHBVF7Z0HGUCIS-8">
+          <mxGeometry x="14" y="180" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SP42X-zHBVF7Z0HGUCIS-9" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="70" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SP42X-zHBVF7Z0HGUCIS-11" value="用户转账" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="SP42X-zHBVF7Z0HGUCIS-9">
+          <mxGeometry x="15" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SP42X-zHBVF7Z0HGUCIS-17" value="账户通知" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="SP42X-zHBVF7Z0HGUCIS-9">
+          <mxGeometry x="15" y="170" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SP42X-zHBVF7Z0HGUCIS-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SP42X-zHBVF7Z0HGUCIS-10" target="SP42X-zHBVF7Z0HGUCIS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SP42X-zHBVF7Z0HGUCIS-14" value="callback" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;" edge="1" target="SP42X-zHBVF7Z0HGUCIS-13" parent="1" source="SP42X-zHBVF7Z0HGUCIS-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SP42X-zHBVF7Z0HGUCIS-15" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;rounded=0;" edge="1" source="SP42X-zHBVF7Z0HGUCIS-13" parent="1" target="SP42X-zHBVF7Z0HGUCIS-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SP42X-zHBVF7Z0HGUCIS-19" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SP42X-zHBVF7Z0HGUCIS-8" target="SP42X-zHBVF7Z0HGUCIS-16">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="220" y="370" as="sourcePoint" />
+            <mxPoint x="300" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SP42X-zHBVF7Z0HGUCIS-23" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.1;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SP42X-zHBVF7Z0HGUCIS-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="294" as="sourcePoint" />
+            <mxPoint x="280" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
