@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T03:08:06.895Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="Qj2U_S0BKdccTDAXszvj" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-21T03:41:11.665Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="05I_EqiNhz5x8uGdfPO-" version="20.0.1" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="946" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -54,7 +54,7 @@
         <mxCell id="ea94kt_kHYcBvmP7wfDY-59" value="修改订单状态支付中" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=rgb(0, 0, 0);" vertex="1" parent="3">
           <mxGeometry x="74.5" y="422" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ea94kt_kHYcBvmP7wfDY-67" value="修改状态，成功修改商户渠道账户余额" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=rgb(0, 0, 0);" vertex="1" parent="3">
+        <mxCell id="ea94kt_kHYcBvmP7wfDY-67" value="修改状态，成功修改商户渠道账户余额，添加账户记录" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=rgb(0, 0, 0);" vertex="1" parent="3">
           <mxGeometry x="74.5" y="502" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ea94kt_kHYcBvmP7wfDY-72" value="" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);strokeColor=rgb(0, 0, 0);fontColor=rgb(0, 0, 0);" vertex="1" parent="3">
